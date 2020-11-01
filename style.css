@@ -32,3 +32,18 @@ border-bottom: 1px dotted #ccc;
 article {
     border-bottom: 1px soild #000;
 }
+
+.sticky, .blog-post{
+    color: white;
+    padding: 20px;
+}
+
+.sticky{
+    background:green;
+}
+
+.blog-post{
+    background:blue;
+    position:relative;
+    left:20px;
+}
