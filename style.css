@@ -82,3 +82,57 @@ table {
         flex: 1; }
       table tr td:last-of-type {
         width: 200px; }
+		
+		
+		
+		@media(max-width:400px){
+			
+			
+			body{
+				
+				padding:10px;
+				margin:0;
+			}
+			p{
+				color:#ff0099;
+			}
+			.blog-post {
+				display:block;
+				    background: black;
+				left:0;
+			}
+			.story{
+				
+    width: 95%;
+			
+			}
+			.story >img{
+				width:100%;
+			}
+			
+			table {
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  max-width: 1000px;
+  width: 100%;
+  line-height: 30px;
+  margin-bottom: 30px; }
+  table tr {
+    display: inline-table; }
+    table tr th:first-of-type {
+      width: 10%; }
+    table tr th:nth-of-type(2) {
+      flex: 1; }
+    table tr th:last-of-type {
+      width: 10%; }
+    table tr td {
+      border-collapse: collapse;
+      border: 1px solid #eee;
+      text-align: center; }
+      table tr td:first-of-type {
+        width: 10%; }
+      table tr td:nth-of-type(2) {
+        flex: 1; }
+      table tr td:last-of-type {
+        width: 10%; }
+		}
